@@ -1,3 +1,20 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.profile-image {
+    filter: grayscale(100%);
+    transition: filter 0.3s ease-in-out;
+}
+
+.profile-card:hover .profile-image {
+    filter: grayscale(0%);
+}
+
+.profile-card {
+    transition: background-color 0.6s ease; /* Adjust the duration (0.5s) as needed */
+}
+
+.profile-card:hover {
+    background-color: rgba(73, 73, 73, 0.32);
+}

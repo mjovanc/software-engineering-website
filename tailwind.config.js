@@ -9,8 +9,8 @@ export default {
         accent: '#4a5568', // Light Gray
         background: '#000000', // Light Background
         textPrimary: '#E8E9EA', // Light Text
-        textSecondary: '#d2d3d3', // Slightly Darker Text
-        borderGray: '#151515', // Border Gray
+        textSecondary: '#484848', // Slightly Darker Text
+        borderGray: '#1e1e1e', // Border Gray
       },
       fontFamily: {
         jetbrains: ['JetBrains Mono', 'monospace'],

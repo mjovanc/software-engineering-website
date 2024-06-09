@@ -1,6 +1,6 @@
 <footer class="border-t border-borderGray bg-primary-transparent p-4 mt-8 font-jetbrains">
 	<div class="container mx-auto text-center text-textPrimary">
-		© 2024 Software Engineering. All rights reserved.
+		© 2024 Software Engineering Community. All rights reserved.
 	</div>
 </footer>
 

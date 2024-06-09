@@ -1,6 +1,21 @@
+<script>
+	import Headline from './Headline.svelte';
+	import HeadlineColumns from './HeadlineColumns.svelte';
+	import Team from './Team.svelte';
+	import Contact from './Contact.svelte';
+	import About from './About.svelte';
+</script>
+
 <section class="container mx-auto p-4 bg-primary-transparent">
-	<h2 class="text-2xl font-bold mb-4 font-jetbrains text-primary">Welcome to MyApp</h2>
-	<p class="text-secondary">This is the main content of the page.</p>
+	<div class="container mx-auto mt-8">
+		<Headline />
+		<HeadlineColumns />
+		<About />
+		<Team />
+		<Contact />
+
+	</div>
+
 </section>
 
 <style>
