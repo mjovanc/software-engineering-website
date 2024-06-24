@@ -2,9 +2,9 @@
 	// Define an array of team members with their information
 	const teamMembers = [
 		{ name: 'Anthony Waldsmith', x: 'anthonywaldz', avatar: 'https://pbs.twimg.com/profile_images/1537490192159846403/sTsGcoS9_400x400.jpg'},
-		{ name: 'Carlos Aponte', x: '0xCaponte', avatar: 'https://pbs.twimg.com/profile_images/1568565425213956096/gkZQBqjO_400x400.jpg' },
+		{ name: 'Carlos Aponte', x: '0xCaponte', avatar: 'https://pbs.twimg.com/profile_images/1800548764144263170/mpsgOkDO_400x400.jpg' },
 		{ name: 'Robin Hallabro-Kokko', x: 'hallabrokokko', avatar: 'https://pbs.twimg.com/profile_images/1684431913296048130/6m3omfdQ_400x400.jpg' },
-		{ name: 'khushi', x: 'khushi_ftw', avatar: 'https://pbs.twimg.com/profile_images/1782662557473665024/0Ot4tOXe_400x400.jpg' },
+		{ name: 'Miss Bohemian', x: 'misbohemian', avatar: 'https://pbs.twimg.com/profile_images/1800320760860524544/c2znZISt_400x400.jpg' },
 		{ name: 'Nathaniel Knudsen', x: 'stoicswe', avatar: 'https://pbs.twimg.com/profile_images/1721553766510419968/7zQpiHtP_400x400.png' },
 		{ name: 'Arthur', x: 'arthurdotwork', avatar: 'https://pbs.twimg.com/profile_images/1763983127670583296/zbpQ0FwX_400x400.jpg' },
 	];
