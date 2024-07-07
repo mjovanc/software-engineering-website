@@ -10,6 +10,7 @@
 		</button>
 		<div class="hidden lg:flex space-x-4">
 			<a href="#home" class="text-textPrimary">Home</a>
+			<a href="https://shop.softw.engineering" target="_blank" class="text-textPrimary">Shop</a>
 			<a href="#about" class="text-textPrimary">About</a>
 			<a href="#team" class="text-textPrimary">Our Team</a>
 			<a href="#contact" class="text-textPrimary">Contact</a>
@@ -18,6 +19,7 @@
 	{#if isOpen}
 		<div class="lg:hidden flex flex-col space-y-2 mt-2">
 			<a href="#home" class="text-textPrimary">Home</a>
+			<a href="https://shop.softw.engineering" target="_blank" class="text-textPrimary">Shop</a>
 			<a href="#about" class="text-textPrimary">About</a>
 			<a href="#team" class="text-textPrimary">Our Team</a>
 			<a href="#contact" class="text-textPrimary">Contact</a>
