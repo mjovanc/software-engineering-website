@@ -2,24 +2,40 @@
 export default {
   content: ['./src/**/*.{html,js,svelte,ts}'],
   theme: {
-    extend: {
-      colors: {
-        primary: '#000000', // Black
-        secondary: '#16181c', // Gray
-        accent: '#4a5568', // Light Gray
-        background: '#000000', // Light Background
-        textPrimary: '#E8E9EA', // Light Text
-        textSecondary: '#484848', // Slightly Darker Text
-        borderGray: '#1e1e1e', // Border Gray
-      },
-      fontFamily: {
-        jetbrains: ['JetBrains Mono', 'monospace'],
-      },
-      backgroundImage: {
-        'stars': "url('/stars.png')",
-      },
+    screens: {
+      sm: '480px',
+      md: '768px',
+      lg: '976px',
+      xl: '1200px',
     },
+    colors: {
+      'blue': '#1fb6ff',
+      'purple': '#7e5bef',
+      'pink': '#ff49db',
+      'orange': '#ff7849',
+      'green': '#004E0C',
+      'yellow': '#ffc82c',
+      'black': '#0d1117',
+      'gray-dark': '#252E28',
+      'full-white': '#ffffff',
+      'white': '#EBEBEB',
+      'gray': '#a7a9a6',
+      'gray-light': '#a4a4a4',
+    },
+    fontFamily: {
+      sans: ['Graphik', 'sans-serif'],
+      serif: ['Merriweather', 'serif'],
+    },
+    extend: {
+      spacing: {
+        '128': '32rem',
+        '144': '36rem',
+      },
+      borderRadius: {
+        '4xl': '2rem',
+      }
+    }
   },
   plugins: [],
-}
+};
 
