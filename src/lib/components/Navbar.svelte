@@ -10,9 +10,9 @@
   <div>
     <nav class="container px-6 py-8 mx-auto md:flex md:justify-between md:items-center">
       <div class="flex items-center justify-between">
-        <a href="/" class="flex items-center">
-          <img src="/logo/black.svg" class="h-10 mr-3 block dark:hidden no-hover-effect" alt="Software Engineering Community Logo" />
-          <img src="/logo/white.svg" class="h-10 mr-3 hidden dark:block no-hover-effect" alt="Software Engineering Community Logo" />
+        <a href="/" class="flex items-center no-hover-effect">
+          <img src="/logo/black.svg" class="h-10 mr-3 block dark:hidden" alt="Software Engineering Community Logo" />
+          <img src="/logo/white.svg" class="h-10 mr-3 hidden dark:block" alt="Software Engineering Community Logo" />
         </a>
         <!-- Mobile menu button -->
         <div on:click={toggleNavbar} class="flex md:hidden dark:text-white">

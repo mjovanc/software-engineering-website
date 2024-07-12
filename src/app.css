@@ -66,10 +66,16 @@ a:hover::before {
     transform: scaleX(1); /* Show line slowly */
 }
 
-/* Exclude effect on links inside elements with class "no-hover-effect" */
-a.no-hover-effect a::before {
+/* Exclude effect on links with the class "no-hover-effect" */
+a.no-hover-effect::before {
     display: none !important; /* Hide the pseudo-element */
 }
+
+a.no-hover-effect:hover::before {
+    visibility: hidden; /* Ensure it stays hidden on hover */
+    transform: scaleX(0); /* Ensure it stays hidden on hover */
+}
+
 
 strong {
     font-weight: bold; /* Ensures text is bold */
