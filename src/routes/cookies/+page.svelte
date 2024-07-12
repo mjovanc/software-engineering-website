@@ -15,9 +15,9 @@
   <br><br>
   There are two types of cookies which are the following:
 </p>
-<ul class="mt-6 text-lg regular-font text-black dark:text-gray">
-  <li>- Persistent cookies – stays in the visitor’s computer under a determined period.</li>
-  <li>- Session cookies – are stored temporary in the computer’s memory during the visit of a website. These cookies will be erased when a visitor is closing the browser.</li>
+<ul class="list-disc list-inside mt-4 regular-font text-black dark:text-gray">
+  <li><strong>Persistent cookies</strong> – stays in the visitor’s computer under a determined period.</li>
+  <li><strong>Session cookies</strong> – are stored temporary in the computer’s memory during the visit of a website. These cookies will be erased when a visitor is closing the browser.</li>
 </ul>
 
 <h2 class="mt-14 regular-font text-black uppercase dark:text-white">Software Engineering Community's use of Cookies</h2>

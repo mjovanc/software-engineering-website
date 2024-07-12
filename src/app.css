@@ -49,7 +49,7 @@ a::before {
     height: 2px; /* Height of the line */
     bottom: 0;
     left: 0;
-    background-color: #3182ce; /* Line color */
+    background-color: white; /* Line color */
     visibility: hidden;
     transform: scaleX(0); /* Initially hidden */
     transition: transform 0.3s ease-in-out;
@@ -57,7 +57,7 @@ a::before {
 
 /* Hover state for the hyperlink */
 a:hover {
-    color: #2c5282; /* Change color on hover */
+    color: white; /* Change color on hover */
 }
 
 /* Slow motion effect when hovering */

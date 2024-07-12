@@ -44,7 +44,7 @@
 
   .star {
     position: absolute;
-    background: white;
+    background: #e0e0e0;
     border-radius: 50%;
     width: 2px; /* Adjust star size */
     height: 2px; /* Adjust star size */
