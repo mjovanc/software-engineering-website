@@ -20,7 +20,7 @@ export default {
       'full-white': '#ffffff',
       'white': '#EBEBEB',
       'gray': '#a7a9a6',
-      'gray-light': '#a4a4a4',
+      'gray-light': '#282828',
     },
     fontFamily: {
       sans: ['Graphik', 'sans-serif'],

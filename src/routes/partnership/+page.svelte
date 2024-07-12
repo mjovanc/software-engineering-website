@@ -11,14 +11,18 @@
 <h1 class="regular-font text-black uppercase dark:text-white">Partnership Opportunities</h1>
 
 <p class="mt-6 text-lg regular-font text-black dark:text-gray max-w-4xl">
-    The Software Engineering Community is a thriving community where engineers from around the share, discuss and learn from each other, share feedback, and collaborate on fresh ideas.
-    Since our inception in October 2021, we have rapidly grown to over 340,000 members, making it the ideal place to promote your content and reach a highly engaged audience.
+    The Software Engineering Community is a thriving place where engineers from around the share, discuss, learn from each other
+    and collaborate on fresh ideas.
+    Since our inception in September 2023, we have rapidly grown to over 60,000 members,
+    making it the ideal place to promote your content and reach a highly engaged audience.
     <br><br>
-    We're excited to introduce new promotional packages tailored for brands, influencers, and community leaders. These packages are designed to amplify your reach within The Software Engineering Community, allowing you to showcase promotional content or promote your own community effectively.
+    We're excited to introduce new promotional packages tailored for companies, influencers,
+    and community leaders. These packages are designed to amplify your reach within The Software Engineering Community,
+    allowing you to showcase promotional content or promote your own community effectively.
 </p>
 
 <div class="mt-6 max-w-4xl">
-  <h2 class="text-xl regular-font uppercase text-black dark:text-white">Pinned Post</h2>
+  <h2 class="text-xl2 mt-14 regular-font uppercase text-black dark:text-white">Pinned Post</h2>
 
   <p class="mt-4 text-lg regular-font text-black dark:text-gray">
     A Pinned Post ensures that your content remains at the top of our community for a specified duration, guaranteeing maximum visibility. This option is perfect for a variety of promotional purposes:
@@ -42,7 +46,7 @@
     <li><strong>2 Weeks:</strong> $2,000</li>
   </ul>
 
-  <h2 class="text-xl regular-font uppercase text-black dark:text-white mt-6">Community Promotion</h2>
+  <h2 class="text-xl2 mt-14 regular-font uppercase text-black dark:text-white">Community Promotion</h2>
 
   <p class="mt-4 text-lg regular-font text-black dark:text-gray">
     Promote your community with a Pinned Post, perfect for community announcements and introducing your new or existing community to our members.
@@ -56,7 +60,7 @@
     <li><strong>1 Week (7 Days):</strong> $1,000</li>
   </ul>
 
-  <h2 class="text-xl regular-font uppercase text-black dark:text-white mt-6">How Pinned Posts Drive Results</h2>
+  <h2 class="text-xl2 mt-14 regular-font uppercase text-black dark:text-white">How Pinned Posts Drive Results</h2>
 
   <p class="mt-4 text-lg regular-font text-black dark:text-gray">
     We recently conducted tests in our community to assess how pinned posts impact engagement and growth. Here are the findings:
@@ -106,13 +110,13 @@
 
   </div>
 
-  <h2 class="text-xl regular-font uppercase text-black dark:text-white mt-6">Getting Started</h2>
+  <h2 class="text-xl2 mt-14 regular-font uppercase text-black dark:text-white">Getting Started</h2>
 
   <p class="mt-4 text-lg regular-font text-black dark:text-gray">
-    For more information or to begin, please reach out to your designated Partnership Manager.
+    For more information or to begin, please reach out by <a href="/contact" class="hover:text-blue-400 dark:hover:text-purple dark:text-white">contacting us</a>.
   </p>
 
-  <h2 class="text-xl regular-font uppercase text-black dark:text-white mt-6">How It Works</h2>
+  <h2 class="text-xl2 mt-14 regular-font uppercase text-black dark:text-white">How It Works</h2>
 
   <ol class="list-decimal list-inside mt-4 regular-font text-black dark:text-gray">
     <li class="mt-2">
