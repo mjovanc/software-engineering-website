@@ -20,7 +20,7 @@
       <div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-2">
         <div>
           <h2
-            class="regular-font mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-purple"
+            class="regular-font mb-6 text-sm text-gray-900 uppercase dark:text-purple"
           >
             Follow us
           </h2>
@@ -46,7 +46,7 @@
 
         <div>
           <h2
-            class="regular-font mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-purple"
+            class="regular-font mb-6 text-sm text-gray-900 uppercase dark:text-purple"
           >
             Legal
           </h2>
