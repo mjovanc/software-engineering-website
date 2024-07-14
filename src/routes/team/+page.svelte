@@ -34,34 +34,34 @@
 <h1 class="text-xl2 mt-14 regular-font text-black uppercase dark:text-white">Team</h1>
 
 <div class="mt-16 max-w-6xl mx-auto">
-  <h3 class="text-2xl mb-4 font-bold regular-font text-black uppercase dark:text-white">Admin/Founder</h3>
+  <h3 class="text-2xl mb-4 regular-font text-black uppercase dark:text-white">Admin/Founder</h3>
   <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
     {#each admins as member}
       <div class="profile-card border border-full-white dark:border-gray-light p-4 rounded-lg text-center bg-transparent hover:bg-black hover:bg-opacity-50 transition duration-500">
         <img src={member.avatar} width=150 alt="Profile Picture" class="profile-image rounded-full mx-auto mb-2 transform transition duration-500">
-        <div class="text-lg regular-font font-bold mb-1 text-black dark:text-white">{member.name}</div>
+        <div class="text-lg regular-font mb-1 text-black dark:text-white">{member.name}</div>
         <a href="https://x.com/{member.x}" target="_blank" rel="noopener noreferrer" class="regular-font">@{member.x}</a>
       </div>
     {/each}
   </div>
 
-  <h3 class="text-2xl mt-16 mb-4 font-bold regular-font text-black uppercase dark:text-white">Co-Admins</h3>
+  <h3 class="text-2xl mt-16 mb-4 regular-font text-black uppercase dark:text-white">Co-Admins</h3>
   <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
     {#each coAdmins as member}
       <div class="profile-card border border-full-white dark:border-gray-light p-4 rounded-lg text-center bg-transparent hover:bg-black hover:bg-opacity-50 transition duration-500">
         <img src={member.avatar} width=150 alt="Profile Picture" class="profile-image rounded-full mx-auto mb-2 transform transition duration-500">
-        <div class="text-lg regular-font font-bold mb-1 text-black dark:text-white">{member.name}</div>
+        <div class="text-lg regular-font mb-1 text-black dark:text-white">{member.name}</div>
         <a href="https://x.com/{member.x}" target="_blank" rel="noopener noreferrer" class="regular-font">@{member.x}</a>
       </div>
     {/each}
   </div>
 
-  <h3 class="text-2xl mt-16 mb-4 font-bold regular-font text-black uppercase dark:text-white">Moderators</h3>
+  <h3 class="text-2xl mt-16 mb-4 regular-font text-black uppercase dark:text-white">Moderators</h3>
   <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
     {#each moderators as member}
       <div class="profile-card border border-full-white dark:border-gray-light p-4 rounded-lg text-center bg-transparent hover:bg-black hover:bg-opacity-50 transition duration-500">
         <img src={member.avatar} width=150 alt="Profile Picture" class="profile-image rounded-full mx-auto mb-2 transform transition duration-300">
-        <div class="text-lg regular-font font-bold mb-1 text-black dark:text-white">{member.name}</div>
+        <div class="text-lg regular-font mb-1 text-black dark:text-white">{member.name}</div>
         <a href="https://x.com/{member.x}" target="_blank" rel="noopener noreferrer" class="regular-font">@{member.x}</a>
       </div>
     {/each}
