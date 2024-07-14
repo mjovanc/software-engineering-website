@@ -79,11 +79,11 @@ a.no-hover-effect:hover::before {
 
 strong {
     font-weight: bold; /* Ensures text is bold */
-    color: white;       /* Text color */
     font-size: 1.1em;  /* Slightly increase the font size */
     padding: 2px 4px;  /* Optional: Padding around the text */
     border-radius: 3px; /* Optional: Rounded corners */
     text-transform: uppercase; /* Optional: Uppercase text */
     font-style: italic;
+    border-bottom: 2px solid #7e5bef;
 }
 

@@ -1,6 +1,7 @@
 <footer>
   <div class="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
     <div class="md:flex md:justify-between">
+
       <div class="mb-6 md:mb-0">
         <a href="/" class="flex items-center no-hover-effect">
           <img
@@ -15,6 +16,7 @@
           />
         </a>
       </div>
+
       <div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-2">
         <div>
           <h2
@@ -41,6 +43,7 @@
             </li>
           </ul>
         </div>
+
         <div>
           <h2
             class="regular-font mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-purple"
@@ -57,6 +60,7 @@
             </li>
           </ul>
         </div>
+
       </div>
     </div>
     <hr class="my-6 border-gray-200 sm:mx-auto dark:border-purple lg:my-8" />
@@ -66,6 +70,7 @@
         >© 2024 Software Engineering Community. All Rights Reserved.
       </span>
       <div class="flex mt-4 space-x-6 sm:justify-center sm:mt-0">
+
         <a
           href="https://x.com/swe_hq"
           target="_blank"
@@ -82,6 +87,7 @@
 
           <span class="sr-only">𝕏 page</span>
         </a>
+
         <a
           href="https://github.com/software-engineering-on-x"
           target="_blank"

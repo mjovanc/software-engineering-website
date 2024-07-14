@@ -30,6 +30,7 @@
 		"@vercel/analytics": "^1.0.1",
 		"clsx": "^2.1.1",
 		"css.gg": "^2.0.0",
+		"svelte-motion": "^0.12.2",
 		"tailwind-merge": "^2.4.0"
 	}
 }

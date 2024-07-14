@@ -39,12 +39,10 @@
     height: 100%;
     overflow: hidden;
     z-index: -1;
-    background: black;
   }
 
   .star {
     position: absolute;
-    background: #e0e0e0;
     border-radius: 50%;
     width: 2px; /* Adjust star size */
     height: 2px; /* Adjust star size */
@@ -75,7 +73,7 @@
 <div class="star-field">
   {#each stars as star}
     <div
-      class="star"
+      class="star dark:bg-white"
       style="
         top: {star.y}%;
         left: {star.x}%;
