@@ -27,6 +27,7 @@
     { name: 'Tim Ottinger', x: 'tottinge', avatar: 'https://pbs.twimg.com/profile_images/1600487552062033923/I57lai7y_400x400.jpg' },
     { name: 'Zach Warunek', x: 'ZachWarunek', avatar: 'https://pbs.twimg.com/profile_images/1795293659472265216/5vKpJVRM_400x400.jpg' },
     { name: 'Adrian Dittman', x: 'AdrianDittman', avatar: 'https://pbs.twimg.com/profile_images/1715183897297002496/67FPPcja_400x400.png' },
+    { name: 'Jono O'Shea', x: 'jono_oshea', avatar: 'https://pbs.twimg.com/profile_images/1660717458666438656/k1M7lcrE_400x400.jpg' },
   ];
 </script>
 
