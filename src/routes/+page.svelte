@@ -1,10 +1,23 @@
 <script lang="ts">
 	import { onMount } from 'svelte';
+	import anime from 'animejs/lib/anime.js';
 
 	// Set page title on component mount
-	let pageTitle = 'Software Engineering Community';
+	let pageTitle = 'Software Engineering Network';
 	onMount(() => {
 		document.title = pageTitle;
+
+		// Initialize the animation when the component mounts
+		anime({
+			targets: '.rgb-text',
+			color: ['#ff0000', '#00ff00', '#0000ff', '#ff0000'],
+			duration: 15000,
+			easing: 'linear',
+			loop: true,
+			// To ensure the animation is smooth
+			autoplay: true,
+			direction: 'alternate'
+		});
 	});
 
 	// Define the communities array with image paths, names, and links
@@ -58,7 +71,7 @@
 </script>
 
 <h1 class="regular-font text-black uppercase dark:text-white">
-	We invest in the <span class="text-purple italic">engineers</span> of tomorrow.
+	We invest in the <span class="rgb-text italic">engineers</span> of tomorrow.
 </h1>
 <p class="mt-6 text-lg regular-font text-black dark:text-gray max-w-4xl">
 	Welcome to the official website for the Software Engineering Network. Here, we come together to

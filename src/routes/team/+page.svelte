@@ -2,7 +2,7 @@
 	import { onMount } from 'svelte';
 
 	// Set page title on component mount
-	let pageTitle = 'Team - Software Engineering Community';
+	let pageTitle = 'Team - Software Engineering Network';
 	onMount(() => {
 		document.title = pageTitle;
 	});

@@ -13,12 +13,12 @@
 				<img
 					src="/logo/black.svg"
 					class="h-10 mr-3 block dark:hidden"
-					alt="Software Engineering Community Logo"
+					alt="Software Engineering Network Logo"
 				/>
 				<img
 					src="/logo/white.svg"
 					class="h-10 mr-3 hidden dark:block"
-					alt="Software Engineering Community Logo"
+					alt="Software Engineering Network Logo"
 				/>
 			</a>
 
