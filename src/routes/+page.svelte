@@ -1,42 +1,118 @@
 <script lang="ts">
-  import { onMount } from 'svelte';
-  let pageTitle = 'Software Engineering Community';
-  onMount(() => {
-    document.title = pageTitle;
-  });
+	import { onMount } from 'svelte';
+
+	// Set page title on component mount
+	let pageTitle = 'Software Engineering Community';
+	onMount(() => {
+		document.title = pageTitle;
+	});
+
+	// Define the communities array with image paths, names, and links
+	const communities = [
+		{
+			name: 'Software Engineering',
+			image: '/communities/swe.jpeg',
+			link: 'https://x.com/i/communities/1699807431709041070'
+		},
+		{
+			name: 'Rust Programming Language',
+			image: '/communities/rust.png',
+			link: 'https://x.com/i/communities/1733520006279815231'
+		},
+		{
+			name: 'Java',
+			image: '/communities/java.jpeg',
+			link: 'https://x.com/i/communities/1817155398517903704'
+		},
+		{
+			name: 'Python',
+			image: '/communities/python.jpeg',
+			link: 'https://x.com/i/communities/1817287034853359844'
+		},
+		{
+			name: 'Go Programming Language',
+			image: '/communities/go.png',
+			link: 'https://x.com/i/communities/1817186904846029101'
+		},
+		{
+			name: 'JavaScript',
+			image: '/communities/javascript.png',
+			link: 'https://x.com/i/communities/1817877155453219161'
+		},
+		{
+			name: 'DevOps | SRE',
+			image: '/communities/devops.jpeg',
+			link: 'https://x.com/i/communities/1523681883384549376'
+		},
+		{
+			name: 'Quantum Computing',
+			image: '/communities/quantum.jpeg',
+			link: 'https://x.com/i/communities/1817237800544092581'
+		},
+		{
+			name: 'Machine Learning',
+			image: '/communities/ml.jpeg',
+			link: 'https://x.com/i/communities/1760409305298174098'
+		}
+	];
 </script>
 
 <h1 class="regular-font text-black uppercase dark:text-white">
-  We invest in the <span class="text-purple italic">engineers</span> of tomorrow.
+	We invest in the <span class="text-purple italic">engineers</span> of tomorrow.
 </h1>
 <p class="mt-6 text-lg regular-font text-black dark:text-gray max-w-4xl">
-  Welcome to the official website for the Software Engineering Community. Here, we come together to share, discuss, and learn from each other.
+	Welcome to the official website for the Software Engineering Network. Here, we come together to
+	share, discuss, and learn from each other.
 </p>
 
-<div class="flex items-center">
-  <i class="gg-globe-alt mt-14 mr-4 dark:text-white"></i>
-  <h2 class="mt-14 regular-font text-black uppercase dark:text-white">Share</h2>
+<!-- Community Section -->
+<div class="mt-16 max-w-6xl mx-auto">
+	<h2 class="text-2xl mb-4 regular-font text-black uppercase dark:text-white">Our Communities</h2>
+	<div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
+		{#each communities as community}
+			<a href={community.link} class="community-card-link">
+				<div
+					class="community-card border border-full-white dark:border-gray-light rounded-lg text-center bg-transparent hover:bg-black hover:bg-opacity-50 transition duration-500"
+				>
+					<img
+						src={community.image}
+						width=""
+						alt={community.name}
+						class="community-image mx-auto mb-2 transform transition duration-500"
+					/>
+					<div class="text-lg regular-font mb-1 text-black dark:text-white">{community.name}</div>
+				</div>
+			</a>
+		{/each}
+	</div>
 </div>
-<p class="mt-6 text-lg regular-font text-black dark:text-gray max-w-4xl">
-  Facilitating seamless knowledge exchange.
-</p>
 
-<div class="flex items-center">
-  <i class="gg-bolt mt-14 mr-4 dark:text-white"></i>
-  <h2 class="mt-14 regular-font text-black uppercase dark:text-white">Discuss</h2>
-</div>
-<p class="mt-6 text-lg regular-font text-black dark:text-gray max-w-4xl">
-  Encouraging dynamic idea exchange and problem-solving.
-</p>
+<style>
+	.community-image {
+		filter: grayscale(100%);
+		transition: filter 0.3s ease-in-out, transform 0.3s ease-in-out;
+		width: 100%; /* Ensure the image fits the card width */
+		height: auto; /* Maintain the aspect ratio */
+	}
 
-<div class="flex items-center">
-  <i class="gg-trophy mt-14 mr-4 dark:text-white"></i>
-  <h2 class="mt-14 regular-font text-black uppercase dark:text-white">Learn</h2>
-</div>
-<p class="mt-6 text-lg regular-font text-black dark:text-gray max-w-4xl">
-  Exploring a journey of continuous growth and skill enhancement.
-</p>
+	.community-card {
+		overflow: hidden; /* Prevent the image from overflowing */
+		transition: background-color 0.3s ease; /* Adjust the duration as needed */
+	}
 
+	.community-card:hover .community-image {
+		filter: grayscale(0%);
+		transform: scale(1.05); /* Zoom in the image by 5% */
+	}
 
+	.community-card:hover {
+		background-color: rgba(0, 0, 0, 0); /* Transparent black background */
+	}
 
-
+	/* Remove the underline from links */
+	.community-card-link {
+		text-decoration: none;
+		color: inherit;
+		display: block;
+	}
+</style>
