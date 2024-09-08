@@ -25,8 +25,4 @@
 			>
 		</dd>
 	</div>
-	<div class="flex flex-col pt-3">
-		<dt class="regular-font mb-1 text-gray md:text-lg dark:text-grey">Phone number</dt>
-		<dd class="regular-font text-lg dark:text-white">+47 401 56 217</dd>
-	</div>
 </dl>
