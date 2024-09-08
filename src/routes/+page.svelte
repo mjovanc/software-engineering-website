@@ -48,6 +48,11 @@
 			link: 'https://x.com/i/communities/1817186904846029101'
 		},
 		{
+			name: 'C# / .NET',
+			image: '/communities/csharp.jpeg',
+			link: 'https://x.com/i/communities/1818281026252329466'
+		},
+		{
 			name: 'JavaScript',
 			image: '/communities/javascript.png',
 			link: 'https://x.com/i/communities/1817877155453219161'
