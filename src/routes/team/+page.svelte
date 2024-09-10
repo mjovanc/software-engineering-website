@@ -15,6 +15,11 @@
 			avatar: '/team/anthonywaldz.jpg'
 		},
 		{
+			name: 'Khushi',
+			x: 'ftw_khushi',
+			avatar: '/team/ftw_khushi.jpg'
+		},
+		{
 			name: 'Carlos Aponte',
 			x: '0xCaponte',
 			avatar: '/team/0xCaponte.jpg'
