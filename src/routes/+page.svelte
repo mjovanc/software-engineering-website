@@ -93,7 +93,7 @@
 
 <!-- X Community Section -->
 <div class="mt-16 max-w-6xl mx-auto">
-	<h2 class="text-2xl mb-4 regular-font text-black uppercase dark:text-white">Our Communities on 𝕏</h2>
+	<h2 class="text-2xl mb-4 regular-font text-black uppercase dark:text-white">𝕏 Communities</h2>
 	<div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
 		{#each communities_on_x as community}
 			<a href={community.link} class="community-card-link">
@@ -115,7 +115,7 @@
 
 <!-- LinkedIn Community Section -->
 <div class="mt-16 max-w-6xl mx-auto">
-	<h2 class="text-2xl mb-4 regular-font text-black uppercase dark:text-white">Our Communities on LinkedIn</h2>
+	<h2 class="text-2xl mb-4 regular-font text-black uppercase dark:text-white">LinkedIn Communities</h2>
 	<div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
 		{#each communities_on_linkedin as community}
 			<a href={community.link} class="community-card-link">
