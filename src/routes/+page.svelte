@@ -21,7 +21,7 @@
 	});
 
 	// Define the communities array with image paths, names, and links
-	const communities = [
+	const communities_on_x = [
 		{
 			name: 'Software Engineering',
 			image: '/communities/swe.jpeg',
@@ -73,6 +73,14 @@
 			link: 'https://x.com/i/communities/1760409305298174098'
 		}
 	];
+
+	const communities_on_linkedin = [
+		{
+			name: 'Software Engineering',
+			image: '/communities/swe.jpeg',
+			link: 'https://www.linkedin.com/groups/9539743/?highlightedUpdateUrn=urn%3Ali%3AgroupPost%3A9539743-7239162020099461122&q=highlightedFeedForGroups'
+		},
+	];
 </script>
 
 <h1 class="regular-font text-black uppercase dark:text-white">
@@ -83,11 +91,33 @@
 	share, discuss, and learn from each other.
 </p>
 
-<!-- Community Section -->
+<!-- X Community Section -->
 <div class="mt-16 max-w-6xl mx-auto">
-	<h2 class="text-2xl mb-4 regular-font text-black uppercase dark:text-white">Our Communities</h2>
+	<h2 class="text-2xl mb-4 regular-font text-black uppercase dark:text-white">Our Communities on 𝕏</h2>
 	<div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
-		{#each communities as community}
+		{#each communities_on_x as community}
+			<a href={community.link} class="community-card-link">
+				<div
+					class="community-card border border-full-white dark:border-gray-light rounded-lg text-center bg-transparent hover:bg-black hover:bg-opacity-50 transition duration-500"
+				>
+					<img
+						src={community.image}
+						width=""
+						alt={community.name}
+						class="community-image mx-auto mb-2 transform transition duration-500"
+					/>
+					<div class="text-lg regular-font mb-1 text-black dark:text-white">{community.name}</div>
+				</div>
+			</a>
+		{/each}
+	</div>
+</div>
+
+<!-- LinkedIn Community Section -->
+<div class="mt-16 max-w-6xl mx-auto">
+	<h2 class="text-2xl mb-4 regular-font text-black uppercase dark:text-white">Our Communities on LinkedIn</h2>
+	<div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
+		{#each communities_on_linkedin as community}
 			<a href={community.link} class="community-card-link">
 				<div
 					class="community-card border border-full-white dark:border-gray-light rounded-lg text-center bg-transparent hover:bg-black hover:bg-opacity-50 transition duration-500"
