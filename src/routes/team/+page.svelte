@@ -37,11 +37,6 @@
 	];
 	const moderators = [
 		{
-			name: 'Avantasia',
-			x: 'Avantasia',
-			avatar: '/team/Avantasia.png'
-		},
-		{
 			name: 'Filip Płotnicki',
 			x: 'filipplotnicki',
 			avatar: '/team/filipplotnicki.jpeg'
@@ -87,16 +82,6 @@
 			avatar: '/team/stephenlb.jpeg'
 		},
 		{
-			name: 'Mike Harding',
-			x: 'Redoxeon',
-			avatar: '/team/Redoxeon.jpeg'
-		},
-		{
-			name: 'trav',
-			x: 'techsavvytravvy',
-			avatar: '/team/techsavvytravvy.jpeg'
-		},
-		{
 			name: 'Vivek Naskar',
 			x: 'vivek_naskar',
 			avatar: '/team/vivek_naskar.jpeg'
@@ -106,11 +91,6 @@
 			x: 'deobfuscations',
 			avatar: '/team/deobfuscations.jpeg'
 		},
-		{
-			name: 'Rohit Ghumare',
-			x: 'ghumare64',
-			avatar: '/team/ghumare64.jpeg'
-		}
 	];
 </script>
 
