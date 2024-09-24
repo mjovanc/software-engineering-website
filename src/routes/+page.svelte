@@ -33,29 +33,9 @@
 			link: 'https://x.com/i/communities/1733520006279815231'
 		},
 		{
-			name: 'Java',
-			image: '/communities/java.jpeg',
-			link: 'https://x.com/i/communities/1817155398517903704'
-		},
-		{
-			name: 'Python',
-			image: '/communities/python.jpeg',
-			link: 'https://x.com/i/communities/1817287034853359844'
-		},
-		{
 			name: 'Go Programming Language',
 			image: '/communities/go.png',
 			link: 'https://x.com/i/communities/1817186904846029101'
-		},
-		{
-			name: 'C# / .NET',
-			image: '/communities/csharp.jpeg',
-			link: 'https://x.com/i/communities/1818281026252329466'
-		},
-		{
-			name: 'JavaScript',
-			image: '/communities/javascript.png',
-			link: 'https://x.com/i/communities/1817877155453219161'
 		},
 		{
 			name: 'DevOps | SRE',
