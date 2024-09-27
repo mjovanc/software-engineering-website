@@ -28,6 +28,11 @@
 			link: 'https://x.com/i/communities/1699807431709041070'
 		},
 		{
+			name: 'Web Developers',
+			image: '/communities/webdevelopers.png',
+			link: 'https://x.com/i/communities/1488952693443997701'
+		},
+		{
 			name: 'Rust Programming Language',
 			image: '/communities/rust.png',
 			link: 'https://x.com/i/communities/1733520006279815231'

@@ -7,7 +7,10 @@
 		document.title = pageTitle;
 	});
 
-	const admins = [{ name: 'Marcus Cvjeticanin', x: 'mjovanc', avatar: '/team/mjovanc.jpg' }];
+	const admins = [
+		{ name: 'Marcus Cvjeticanin', x: 'mjovanc', avatar: '/team/mjovanc.jpg' },
+		{ name: 'Marko Denic', x: 'denicmarko', avatar: '/team/denicmarko.jpg' }
+	];
 	const coAdmins = [
 		{
 			name: 'Anthony Waldsmith',
@@ -90,6 +93,16 @@
 			name: 'john',
 			x: 'deobfuscations',
 			avatar: '/team/deobfuscations.jpeg'
+		},
+		{
+			name: 'Rohit Ghumare',
+			x: 'ghumare64',
+			avatar: '/team/ghumare64.jpeg'
+		},
+		{
+			name: 'Tim Majerus',
+			x: 'TheTimMajerus',
+			avatar: '/team/TheTimMajerus.jpg'
 		},
 	];
 </script>
