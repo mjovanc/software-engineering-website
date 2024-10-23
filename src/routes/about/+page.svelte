@@ -14,7 +14,7 @@
 		class="hover:text-blue-400 dark:hover:text-purple dark:text-white"
 		target="_blank">Marcus Cvjeticanin</a
 	>. Initially, the goal was to create a dedicated space for backend engineers, as there was a lack
-	of actively moderated communities for them at the time.
+	of actively moderated communities for it at the time.
 	<br />
 	<br />
 	As the community grew to 1,000 members, the idea emerged to broaden its scope to include a wider range
@@ -24,5 +24,8 @@
 	<br />
 	The communities feature on 𝕏 is still new and evolving rapidly with exciting updates. Our community
 	is actively collaborating with the developers of 𝕏 to provide feedback and request new features that
-	our members are eager to see. We are just at the beginning.
+	our members are eager to see.
+	<br />
+	<br />
+	We are just at the beginning...
 </p>

@@ -53,6 +53,14 @@
 			link: 'https://x.com/i/communities/1760409305298174098'
 		}
 	];
+
+	const partners = [
+		{
+			name: 'Sevalla',
+			image: '/partners/sevalla.png',
+			link: 'https://sevalla.com'
+		},
+	];
 </script>
 
 <h1 class="regular-font text-black uppercase dark:text-white">
@@ -79,6 +87,27 @@
 						class="community-image mx-auto mb-2 transform transition duration-500"
 					/>
 					<div class="text-lg regular-font mb-1 text-black dark:text-white">{community.name}</div>
+				</div>
+			</a>
+		{/each}
+	</div>
+</div>
+
+<!-- Partners Section -->
+<div class="mt-16 max-w-6xl mx-auto">
+	<h2 class="text-2xl mb-4 regular-font text-black uppercase dark:text-white">Partners</h2>
+	<div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
+		{#each partners as community}
+			<a href={community.link} class="community-card-link no-hover-effect">
+				<div
+					class="community-card bg-transparent hover:bg-black hover:bg-opacity-50 transition duration-500"
+				>
+					<img
+						src={community.image}
+						width=""
+						alt={community.name}
+						class="community-image mx-auto mb-2 transform transition duration-500"
+					/>
 				</div>
 			</a>
 		{/each}

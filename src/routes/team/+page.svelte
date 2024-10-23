@@ -8,8 +8,7 @@
 	});
 
 	const admins = [
-		{ name: 'Marcus Cvjeticanin', x: 'mjovanc', avatar: '/team/mjovanc.jpg' },
-		{ name: 'Marko Denic', x: 'denicmarko', avatar: '/team/denicmarko.jpg' }
+		{ name: 'Marcus Cvjeticanin', x: 'mjovanc', avatar: '/team/mjovanc.jpg' }
 	];
 	const coAdmins = [
 		{
@@ -31,11 +30,6 @@
 			name: 'Robin Hallabro-Kokko',
 			x: 'hallabrokokko',
 			avatar: '/team/hallabrokokko.jpeg'
-		},
-		{
-			name: 'Nathaniel Knudsen',
-			x: 'stoicswe',
-			avatar: '/team/stoicswe.jpeg'
 		}
 	];
 	const moderators = [
