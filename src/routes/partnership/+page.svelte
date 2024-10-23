@@ -136,16 +136,20 @@
 
 	<ol class="list-decimal list-inside mt-4 regular-font text-black dark:text-gray">
 		<li class="mt-2">
-			<strong>Submit for Approval:</strong> Provide the post you wish to promote. We will review it to
-			ensure it meets our community standards.
+			<strong>Contact Us:</strong> Before posting, reach out to inform us of your intent to promote a post.
+			This step ensures moderators are aware and prevents accidental removal due to promotion policy.
 		</li>
 		<li class="mt-2">
-			<strong>Schedule and Payment:</strong> Once approved, your post will be scheduled. Payment is required
+			<strong>Submit for Approval:</strong> Provide the post you wish to promote for our review. We will
+			check it to ensure it aligns with our community standards.
+		</li>
+		<li class="mt-2">
+			<strong>Schedule and Payment:</strong> Once approved, your post will be scheduled. If you have a desired date and time you wish please send that information to us. Payment is required
 			24 hours before the posting date to secure your slot.
 		</li>
 		<li class="mt-2">
-			<strong>Post and Pin:</strong> Your approved post will be pinned at the top of our community, and
-			alerts will be sent to members with notifications enabled to maximize visibility and engagement.
+			<strong>Post and Pin:</strong> Your approved post will be pinned at the top of our community. Alerts
+			will be sent to members with notifications enabled to maximize visibility and engagement.
 		</li>
 	</ol>
 </div>
