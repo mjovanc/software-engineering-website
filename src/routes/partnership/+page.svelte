@@ -45,9 +45,9 @@
 
 	<ul class="list-disc list-inside mt-4 regular-font text-black dark:text-gray">
 		<li><strong>1 Day (24 Hours):</strong> $300</li>
-		<li><strong>2 Days:</strong> $500</li>
-		<li><strong>3 Days:</strong> $625</li>
-		<li><strong>5 Days:</strong> $1,250</li>
+		<li><strong>2 Days (48 Hours):</strong> $500</li>
+		<li><strong>3 Days (72 Hours):</strong> $625</li>
+		<li><strong>5 Days (120 Hours):</strong> $1,250</li>
 		<li><strong>1 Week (7 Days):</strong> $1,875</li>
 		<li><strong>2 Weeks (14 Days):</strong> $2,500</li>
 	</ul>
@@ -67,7 +67,7 @@
 
 	<ul class="list-disc list-inside mt-4 regular-font text-black dark:text-gray">
 		<li><strong>1 Day (24 Hours):</strong> $350</li>
-		<li><strong>2 Days:</strong> $650</li>
+		<li><strong>2 Days (48 Hours):</strong> $650</li>
 		<li><strong>1 Week (7 Days):</strong> $2,000</li>
 	</ul>
 
