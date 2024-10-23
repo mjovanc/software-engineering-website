@@ -68,7 +68,7 @@
 				</a>
 
 				<a
-					href="https://github.com/software-engineering-on-x"
+					href="https://github.com/x-swe"
 					target="_blank"
 					class="regular-font text-gray-500 hover:text-gray-900 dark:hover:text-purple dark:text-white no-hover-effect"
 				>
