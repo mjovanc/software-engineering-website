@@ -60,6 +60,11 @@
 			image: '/partners/sevalla.png',
 			link: 'https://sevalla.com'
 		},
+		{
+			name: 'ByteSizeGo',
+			image: '/partners/bytesizego.png',
+			link: 'https://www.bytesizego.com'
+		},
 	];
 </script>
 
