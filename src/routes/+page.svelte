@@ -48,11 +48,6 @@
 			link: 'https://x.com/i/communities/1523681883384549376'
 		},
 		{
-			name: 'Quantum Computing',
-			image: '/communities/quantum.jpeg',
-			link: 'https://x.com/i/communities/1817237800544092581'
-		},
-		{
 			name: 'Machine Learning',
 			image: '/communities/ml.jpeg',
 			link: 'https://x.com/i/communities/1760409305298174098'
