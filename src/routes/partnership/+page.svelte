@@ -11,13 +11,13 @@
 <h1 class="regular-font text-black uppercase dark:text-white">Partnership Opportunities</h1>
 
 <p class="mt-6 text-lg regular-font text-black dark:text-gray max-w-4xl">
-	The Software Engineering Network is a thriving place where engineers from around the share,
+	The Software Engineering Network is a thriving place where engineers from around the world the share,
 	discuss, learn from each other and collaborate on fresh ideas. Since our inception in September
-	2023, we have rapidly grown to over 60,000 members, making it the ideal place to promote your
+	2023, we have rapidly grown to over 95,000 members, making it the ideal place to promote your
 	content and reach a highly engaged audience.
 	<br /><br />
 	We're excited to introduce new promotional packages tailored for companies, influencers, and community
-	leaders. These packages are designed to amplify your reach within The Software Engineering Network,
+	leaders. These packages are designed to amplify your reach within The Software Engineering Network and on the platform 𝕏,
 	allowing you to showcase promotional content or promote your own community effectively.
 </p>
 
@@ -44,12 +44,12 @@
 	</h3>
 
 	<ul class="list-disc list-inside mt-4 regular-font text-black dark:text-gray">
-		<li><strong>1 Day:</strong> $200</li>
-		<li><strong>2 Days:</strong> $400</li>
-		<li><strong>3 Days:</strong> $500</li>
-		<li><strong>5 Days:</strong> $1,000</li>
-		<li><strong>1 Week:</strong> $1,500</li>
-		<li><strong>2 Weeks:</strong> $2,000</li>
+		<li><strong>1 Day (24 Hours):</strong> $300</li>
+		<li><strong>2 Days:</strong> $500</li>
+		<li><strong>3 Days:</strong> $625</li>
+		<li><strong>5 Days:</strong> $1,250</li>
+		<li><strong>1 Week (7 Days):</strong> $1,875</li>
+		<li><strong>2 Weeks (14 Days):</strong> $2,500</li>
 	</ul>
 
 	<h2 class="text-xl2 mt-14 regular-font uppercase text-black dark:text-white">
@@ -66,9 +66,9 @@
 	</h3>
 
 	<ul class="list-disc list-inside mt-4 regular-font text-black dark:text-gray">
-		<li><strong>1 Day (24 Hours):</strong> $250</li>
-		<li><strong>2 Days (48 Hours):</strong> $500</li>
-		<li><strong>1 Week (7 Days):</strong> $1,000</li>
+		<li><strong>1 Day (24 Hours):</strong> $350</li>
+		<li><strong>2 Days:</strong> $650</li>
+		<li><strong>1 Week (7 Days):</strong> $2,000</li>
 	</ul>
 
 	<h2 class="text-xl2 mt-14 regular-font uppercase text-black dark:text-white">
