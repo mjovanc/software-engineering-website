@@ -81,46 +81,124 @@
 	</p>
 
 	<div class="mt-4 regular-font text-black dark:text-gray">
-		<h3 class="text-lg regular-font uppercase text-black dark:text-white">Example #1</h3>
+		<div class="mt-4 regular-font text-black dark:text-gray">
+			<h3 class="text-lg regular-font uppercase text-black dark:text-white">Example #1</h3>
 
-		<table class="mt-2 w-full">
-			<thead>
+			<table class="mt-2 w-full">
+				<thead>
 				<tr class="bg-purple-100 dark:bg-gray-700">
 					<th class="border border-purple-600 dark:border-gray-800 px-4 py-2">Metric</th>
 					<th class="border border-purple-600 dark:border-gray-800 px-4 py-2">Before Pinning</th>
 					<th class="border border-purple-600 dark:border-gray-800 px-4 py-2">After Pinning</th>
 				</tr>
-			</thead>
-			<tbody>
+				</thead>
+				<tbody>
 				<tr class="border border-purple-600 dark:border-gray-800">
 					<td class="border border-purple-600 dark:border-gray-800 px-4 py-2">Impressions</td>
 					<td class="border border-purple-600 dark:border-gray-800 px-4 py-2">431</td>
-					<td class="border border-purple-600 dark:border-gray-800 px-4 py-2">6.6M</td>
+					<td class="border border-purple-600 dark:border-gray-800 px-4 py-2">625K</td>
 				</tr>
 				<tr class="border border-purple-600 dark:border-gray-800">
 					<td class="border border-purple-600 dark:border-gray-800 px-4 py-2">Likes</td>
 					<td class="border border-purple-600 dark:border-gray-800 px-4 py-2">16</td>
-					<td class="border border-purple-600 dark:border-gray-800 px-4 py-2">1.5K</td>
+					<td class="border border-purple-600 dark:border-gray-800 px-4 py-2">1.1K</td>
 				</tr>
 				<tr class="border border-purple-600 dark:border-gray-800">
 					<td class="border border-purple-600 dark:border-gray-800 px-4 py-2">Comments</td>
 					<td class="border border-purple-600 dark:border-gray-800 px-4 py-2">2</td>
-					<td class="border border-purple-600 dark:border-gray-800 px-4 py-2">123</td>
+					<td class="border border-purple-600 dark:border-gray-800 px-4 py-2">200</td>
 				</tr>
 				<tr class="border border-purple-600 dark:border-gray-800">
 					<td class="border border-purple-600 dark:border-gray-800 px-4 py-2">Retweets</td>
 					<td class="border border-purple-600 dark:border-gray-800 px-4 py-2">1</td>
-					<td class="border border-purple-600 dark:border-gray-800 px-4 py-2">168</td>
+					<td class="border border-purple-600 dark:border-gray-800 px-4 py-2">100</td>
 				</tr>
 				<tr class="border border-purple-600 dark:border-gray-800">
 					<td class="border border-purple-600 dark:border-gray-800 px-4 py-2">New Followers</td>
 					<td class="border border-purple-600 dark:border-gray-800 px-4 py-2">0</td>
-					<td class="border border-purple-600 dark:border-gray-800 px-4 py-2">217</td>
+					<td class="border border-purple-600 dark:border-gray-800 px-4 py-2">400</td>
 				</tr>
-			</tbody>
-		</table>
+				</tbody>
+			</table>
 
-		<!-- Continue with Example #2 and Example #3 similarly -->
+			<h3 class="text-lg regular-font uppercase text-black dark:text-white mt-6">Example #2</h3>
+
+			<table class="mt-2 w-full">
+				<thead>
+				<tr class="bg-purple-100 dark:bg-gray-700">
+					<th class="border border-purple-600 dark:border-gray-800 px-4 py-2">Metric</th>
+					<th class="border border-purple-600 dark:border-gray-800 px-4 py-2">Before Pinning</th>
+					<th class="border border-purple-600 dark:border-gray-800 px-4 py-2">After Pinning</th>
+				</tr>
+				</thead>
+				<tbody>
+				<tr class="border border-purple-600 dark:border-gray-800">
+					<td class="border border-purple-600 dark:border-gray-800 px-4 py-2">Impressions</td>
+					<td class="border border-purple-600 dark:border-gray-800 px-4 py-2">512</td>
+					<td class="border border-purple-600 dark:border-gray-800 px-4 py-2">350K</td>
+				</tr>
+				<tr class="border border-purple-600 dark:border-gray-800">
+					<td class="border border-purple-600 dark:border-gray-800 px-4 py-2">Likes</td>
+					<td class="border border-purple-600 dark:border-gray-800 px-4 py-2">20</td>
+					<td class="border border-purple-600 dark:border-gray-800 px-4 py-2">200</td>
+				</tr>
+				<tr class="border border-purple-600 dark:border-gray-800">
+					<td class="border border-purple-600 dark:border-gray-800 px-4 py-2">Comments</td>
+					<td class="border border-purple-600 dark:border-gray-800 px-4 py-2">3</td>
+					<td class="border border-purple-600 dark:border-gray-800 px-4 py-2">115</td>
+				</tr>
+				<tr class="border border-purple-600 dark:border-gray-800">
+					<td class="border border-purple-600 dark:border-gray-800 px-4 py-2">Retweets</td>
+					<td class="border border-purple-600 dark:border-gray-800 px-4 py-2">2</td>
+					<td class="border border-purple-600 dark:border-gray-800 px-4 py-2">40</td>
+				</tr>
+				<tr class="border border-purple-600 dark:border-gray-800">
+					<td class="border border-purple-600 dark:border-gray-800 px-4 py-2">New Followers</td>
+					<td class="border border-purple-600 dark:border-gray-800 px-4 py-2">1</td>
+					<td class="border border-purple-600 dark:border-gray-800 px-4 py-2">150</td>
+				</tr>
+				</tbody>
+			</table>
+
+			<h3 class="text-lg regular-font uppercase text-black dark:text-white mt-6">Example #3</h3>
+
+			<table class="mt-2 w-full">
+				<thead>
+				<tr class="bg-purple-100 dark:bg-gray-700">
+					<th class="border border-purple-600 dark:border-gray-800 px-4 py-2">Metric</th>
+					<th class="border border-purple-600 dark:border-gray-800 px-4 py-2">Before Pinning</th>
+					<th class="border border-purple-600 dark:border-gray-800 px-4 py-2">After Pinning</th>
+				</tr>
+				</thead>
+				<tbody>
+				<tr class="border border-purple-600 dark:border-gray-800">
+					<td class="border border-purple-600 dark:border-gray-800 px-4 py-2">Impressions</td>
+					<td class="border border-purple-600 dark:border-gray-800 px-4 py-2">600</td>
+					<td class="border border-purple-600 dark:border-gray-800 px-4 py-2">1.2M</td>
+				</tr>
+				<tr class="border border-purple-600 dark:border-gray-800">
+					<td class="border border-purple-600 dark:border-gray-800 px-4 py-2">Likes</td>
+					<td class="border border-purple-600 dark:border-gray-800 px-4 py-2">25</td>
+					<td class="border border-purple-600 dark:border-gray-800 px-4 py-2">1.8K</td>
+				</tr>
+				<tr class="border border-purple-600 dark:border-gray-800">
+					<td class="border border-purple-600 dark:border-gray-800 px-4 py-2">Comments</td>
+					<td class="border border-purple-600 dark:border-gray-800 px-4 py-2">4</td>
+					<td class="border border-purple-600 dark:border-gray-800 px-4 py-2">150</td>
+				</tr>
+				<tr class="border border-purple-600 dark:border-gray-800">
+					<td class="border border-purple-600 dark:border-gray-800 px-4 py-2">Retweets</td>
+					<td class="border border-purple-600 dark:border-gray-800 px-4 py-2">3</td>
+					<td class="border border-purple-600 dark:border-gray-800 px-4 py-2">200</td>
+				</tr>
+				<tr class="border border-purple-600 dark:border-gray-800">
+					<td class="border border-purple-600 dark:border-gray-800 px-4 py-2">New Followers</td>
+					<td class="border border-purple-600 dark:border-gray-800 px-4 py-2">2</td>
+					<td class="border border-purple-600 dark:border-gray-800 px-4 py-2">800</td>
+				</tr>
+				</tbody>
+			</table>
+		</div>
 	</div>
 
 	<h2 class="text-xl2 mt-14 regular-font uppercase text-black dark:text-white">Getting Started</h2>
