@@ -20,17 +20,36 @@
 		});
 	});
 
+	const experts = [
+		{
+			name: "Uncle Bob Martin",
+			xHandle: "unclebobmartin",
+			title: "Author, Agile Coach, and Software Craftsmanship Pioneer",
+			image: "/experts/unclebobmartin.jpg",
+			quote: "The Analytical Engine does not occupy common ground with mere 'calculating machines.'"
+		},
+		{
+			name: "Josh Long",
+			xHandle: "starbuxman",
+			title: "Spring Developer Advocate",
+			image: "/experts/starbuxman.jpg",
+			quote: "Talk is cheap. Show me the code."
+		},
+		{
+			name: "Daniel Lemire",
+			xHandle: "lemire",
+			title: "Computer Science Professor at the University of Quebec",
+			image: "/experts/lemire.jpg",
+			quote: "The most dangerous phrase in the language is, 'We've always done it this way.'"
+		}
+	];
+
 	// Define the communities array with image paths, names, and links
 	const communities = [
 		{
 			name: 'Software Engineering',
 			image: '/communities/swe.jpeg',
 			link: 'https://x.com/i/communities/1699807431709041070'
-		},
-		{
-			name: 'Web Developers',
-			image: '/communities/webdevelopers.png',
-			link: 'https://x.com/i/communities/1488952693443997701'
 		},
 		{
 			name: 'Rust Programming Language',
@@ -76,8 +95,32 @@
 	share, discuss, and learn from each other.
 </p>
 
+<!-- Experts Section -->
+<div class="experts-section mt-16 max-w-6xl mx-auto">
+	<h2 class="text-2xl mb-4 regular-font text-black uppercase dark:text-white">Notable Members</h2>
+	<div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
+		{#each experts as expert}
+			<div class="expert-card border border-full-white dark:border-gray-light rounded-lg text-center bg-transparent hover:bg-black hover:bg-opacity-50 transition duration-500">
+				<img src={expert.image} alt={expert.name} class="expert-image mx-auto mt-4 mb-4 w-24 h-24 rounded-full transform transition duration-500"/>
+				<h3 class="text-xl regular-font mb-1 text-black dark:text-white flex items-center justify-center">
+					{expert.name}
+					<a
+						href="https://x.com/{expert.xHandle}"
+						target="_blank"
+						rel="noopener noreferrer"
+						class="text-sm text-gray-500 dark:text-gray-300 hover:text-gray-900 dark:hover:text-purple ml-2 no-hover-effect">
+						@{expert.xHandle}
+					</a>
+				</h3>
+				<p class="text-xs bold-font mt-2 mb-4 text-black dark:text-white">{expert.title}</p>
+<!--				<p class="text-sm mt-4 mb-4 text-black dark:text-white italic">"{expert.quote}"</p>-->
+			</div>
+		{/each}
+	</div>
+</div>
+
 <!-- Community Section -->
-<div class="mt-16 max-w-6xl mx-auto">
+<!--<div class="mt-16 max-w-6xl mx-auto">
 	<h2 class="text-2xl mb-4 regular-font text-black uppercase dark:text-white">Our Communities</h2>
 	<div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
 		{#each communities as community}
@@ -96,22 +139,22 @@
 			</a>
 		{/each}
 	</div>
-</div>
+</div>-->
 
 <!-- Partners Section -->
 <div class="mt-16 max-w-6xl mx-auto">
 	<h2 class="text-2xl mb-4 regular-font text-black uppercase dark:text-white">Partners</h2>
 	<div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
 		{#each partners as community}
-			<a href={community.link} class="community-card-link no-hover-effect">
+			<a href={community.link} class="partner-card-link no-hover-effect">
 				<div
-					class="community-card bg-transparent hover:bg-black hover:bg-opacity-50 transition duration-500"
+					class="partner-card bg-transparent hover:bg-black hover:bg-opacity-50 transition duration-500"
 				>
 					<img
 						src={community.image}
 						width=""
 						alt={community.name}
-						class="community-image mx-auto mb-2 transform transition duration-500"
+						class="partner-image mx-auto mb-2 transform transition duration-500"
 					/>
 				</div>
 			</a>
@@ -120,6 +163,27 @@
 </div>
 
 <style>
+    .expert-image {
+        filter: grayscale(100%);
+        transition: filter 0.3s ease-in-out, transform 0.3s ease-in-out;
+    }
+
+    .expert-card {
+        overflow: hidden;
+        transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .expert-card:hover .expert-image {
+        filter: grayscale(0%);
+        transform: scale(1.05);
+    }
+
+    .expert-card:hover {
+        background-color: rgba(0, 0, 0, 0); /* Transparent background */
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Add a subtle shadow effect */
+    }
+
+
 	.community-image {
 		filter: grayscale(100%);
 		transition: filter 0.3s ease-in-out, transform 0.3s ease-in-out;
@@ -147,4 +211,37 @@
 		color: inherit;
 		display: block;
 	}
+
+  .partner-image {
+      filter: grayscale(100%);
+      transition: filter 0.3s ease-in-out, transform 0.3s ease-in-out;
+      max-height: 150px; /* Set a consistent maximum height */
+      width: auto; /* Maintain aspect ratio */
+      margin: auto; /* Center the image inside the card */
+  }
+
+  .partner-card {
+      margin: 1rem;
+      display: flex;
+      align-items: center; /* Center vertically */
+      justify-content: center; /* Center horizontally */
+      height: 200px; /* Set a consistent height for all cards */
+      transition: background-color 0.3s ease; /* Adjust the duration as needed */
+  }
+
+  .partner-card:hover .partner-image {
+      filter: grayscale(0%);
+      transform: scale(1.02); /* Zoom in the image by 5% */
+  }
+
+  .partner-card:hover {
+      background-color: rgba(0, 0, 0, 0); /* Transparent black background */
+  }
+
+  /* Remove the underline from links */
+  .partner-card-link {
+      text-decoration: none;
+      color: inherit;
+      display: block;
+  }
 </style>
