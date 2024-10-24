@@ -25,22 +25,31 @@
 			name: "Uncle Bob Martin",
 			xHandle: "unclebobmartin",
 			title: "Author, Agile Coach, and Software Craftsmanship Pioneer",
-			image: "/experts/unclebobmartin.jpg",
-			quote: "The Analytical Engine does not occupy common ground with mere 'calculating machines.'"
+			image: "/experts/unclebobmartin.jpg"
+		},
+		{
+			name: "ThePrimeagen",
+			xHandle: "ThePrimeagen",
+			title: "CEO @ TheStartup",
+			image: "/experts/theprimeagen.jpg"
 		},
 		{
 			name: "Josh Long",
 			xHandle: "starbuxman",
 			title: "Spring Developer Advocate",
 			image: "/experts/starbuxman.jpg",
-			quote: "Talk is cheap. Show me the code."
 		},
 		{
 			name: "Daniel Lemire",
 			xHandle: "lemire",
 			title: "Computer Science Professor at the University of Quebec",
 			image: "/experts/lemire.jpg",
-			quote: "The most dangerous phrase in the language is, 'We've always done it this way.'"
+		},
+		{
+			name: "Kevlin Henney",
+			xHandle: "KevlinHenney",
+			title: "Software Development Consultant, Trainer, Speaker and Writer",
+			image: "/experts/KevlinHenney.jpg",
 		}
 	];
 
